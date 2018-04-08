@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="befac853-4a11-4a1d-930a-d931cf80484f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,8 +61,8 @@
       <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="697">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
@@ -321,13 +319,17 @@
       <option name="project" value="LOCAL" />
       <updated>1523196422066</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Modifying tests so, that they use factory methods.">
+      <created>1523196843828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1523196843828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 15h 40m 02s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 15h 47m 19s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
@@ -353,6 +355,9 @@
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 16h 00m 49s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 16h 10m 00s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -429,7 +434,8 @@
     <MESSAGE value="Test for comparing Franc to Dollar goes red." />
     <MESSAGE value="Making test for Franc vs Dollar go green, by comparing classes." />
     <MESSAGE value="Making class Money abstract and creating factory method dollar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making class Money abstract and creating factory method dollar." />
+    <MESSAGE value="Modifying tests so, that they use factory methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying tests so, that they use factory methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="697">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />

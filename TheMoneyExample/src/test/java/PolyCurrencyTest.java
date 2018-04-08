@@ -43,6 +43,9 @@ public class PolyCurrencyTest {
         assertNotEquals(new Franc(5),new Dollar(5));
     }
 
-
-
+    @Test
+    public void testIfCurrencyIsCorrect() {
+        assertEquals("USD", Money.dollar(1).currency());
+        assertEquals("CHF", Money.franc(1).currency());
+    }
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="befac853-4a11-4a1d-930a-d931cf80484f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
@@ -41,40 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-              <folding>
-                <element signature="e#72#73#0" expanded="true" />
-                <element signature="e#98#99#0" expanded="true" />
-              </folding>
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -84,6 +64,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="27" selection-start-column="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Money.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
         <option value="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sum.java" />
       </list>
     </option>
@@ -411,19 +407,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523205733840</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Created Sum class, and new test.">
+      <created>1523206027538</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1523206027538</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updating class in constructor and method to return type Sum.">
+      <created>1523206543759</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1523206543759</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 16h 18m 30s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 17h 00m 15s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 17h 08m 05s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 17h 09m 43s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
@@ -445,9 +446,19 @@
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 42m 38s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 54m 38s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 57m 51s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 19h 03m 28s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -458,11 +469,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" visible="true" weight="0.325723" />
+      <window_info active="true" anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" visible="true" weight="0.325723" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998455" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
+      <window_info content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32952815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,7 +540,9 @@
     <MESSAGE value="After deletion of classes Dollar and Franc." />
     <MESSAGE value="Adding method implemented. Test goes green." />
     <MESSAGE value="After creating new test, Expression interface, and Bank class." />
-    <option name="LAST_COMMIT_MESSAGE" value="After creating new test, Expression interface, and Bank class." />
+    <MESSAGE value="Created Sum class, and new test." />
+    <MESSAGE value="Updating class in constructor and method to return type Sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating class in constructor and method to return type Sum." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
@@ -633,21 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#72#73#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="685">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
@@ -660,8 +662,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

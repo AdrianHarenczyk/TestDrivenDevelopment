@@ -1,6 +1,10 @@
-public class Money {
+public abstract class Money {
 
     protected int amount;
+
+    static Money dollar(int amount) {
+        return new Dollar(amount);
+    }
 
     @Override
     public boolean equals(Object obj) {
@@ -8,4 +12,6 @@ public class Money {
         return amount == money.amount
                 && getClass().equals(money.getClass());
     }
+
+    abstract Money times(int multiplier);
 }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="befac853-4a11-4a1d-930a-d931cf80484f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
@@ -41,14 +41,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
+                <element signature="e#107#121#0" expanded="true" />
                 <element signature="e#68#69#0" expanded="true" />
                 <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +60,8 @@
       <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -72,19 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="600">
+              <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
                 <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2283#2284#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,11 +127,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pair.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sum.java" />
         <option value="$PROJECT_DIR$/src/main/java/Money.java" />
         <option value="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
       </list>
     </option>
   </component>
@@ -470,22 +473,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523211724468</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Creating Pair as representative of rates Hashtable.">
+      <created>1523212085585</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1523212085585</updated>
+    </task>
+    <task id="LOCAL-00027" summary="HashTable rates created. Most test green.">
+      <created>1523212421101</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1523212421101</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 17h 27m 05s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 42m 23s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 42m 38s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 54m 38s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 18h 57m 51s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
@@ -504,24 +509,37 @@
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 19h 33m 30s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 20h 31m 52s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 20h 32m 47s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 20h 42m 03s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 20h 42m 11s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32876712" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" weight="0.325723" />
+      <window_info active="true" anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" visible="true" weight="0.325723" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998455" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
+      <window_info content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32952815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -568,8 +586,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test went red." />
-    <MESSAGE value="Testing multiplication." />
     <MESSAGE value="After implementing equals and few changes." />
     <MESSAGE value="Implementing class Money to delete duplicate code." />
     <MESSAGE value="Tests green after extending Money from Franc." />
@@ -593,7 +609,9 @@
     <MESSAGE value="Implementing and developing interface Expression." />
     <MESSAGE value="Creating new functionality. Rate of change in Bank class." />
     <MESSAGE value="Adding Bank class parameter, and making attempt to create array of currency rates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Bank class parameter, and making attempt to create array of currency rates." />
+    <MESSAGE value="Creating Pair as representative of rates Hashtable." />
+    <MESSAGE value="HashTable rates created. Most test green." />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable rates created. Most test green." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,8 +636,8 @@
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,10 +689,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#107#121#0" expanded="true" />
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
@@ -692,54 +749,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state relative-caret-position="600">
+          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2283#2284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
           </folding>
         </state>
       </provider>

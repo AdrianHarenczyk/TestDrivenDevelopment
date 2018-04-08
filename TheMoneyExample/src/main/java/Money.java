@@ -15,19 +15,23 @@ public class Money {
         return new Money(amount, "CHF");
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        Money money = (Money) obj;
-        return amount == money.amount
-                && currency.equals(money.currency);
+    String currency(){
+        return currency;
     }
 
     Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
     }
 
-    String currency(){
-        return currency;
+    Money plus(Money addend) {
+        return new Money(amount + addend.amount, currency);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Money money = (Money) obj;
+        return amount == money.amount
+                && currency.equals(money.currency);
     }
 
     @Override

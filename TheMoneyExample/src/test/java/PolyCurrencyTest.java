@@ -22,6 +22,16 @@ public class PolyCurrencyTest {
     }
 
     @Test
+    public void testEqualityFranc() {
+        assertEquals(new Franc(5), new Franc(5));
+    }
+
+    @Test
+    public void testNotEqualFranc() {
+        assertNotEquals(new Franc(5), new Franc(6));
+    }
+
+    @Test
     public void testFrancMultiplication() {
         Franc five = new Franc(5);
         assertEquals(new Franc(10), five.times(2));

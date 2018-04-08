@@ -38,4 +38,9 @@ public class PolyCurrencyTest {
         assertEquals(new Franc(15), five.times(3));
     }
 
+    @Test
+    public void francDoesNotEqualDollar() {
+        assertNotEquals(new Franc(5),new Dollar(5));
+    }
+
 }

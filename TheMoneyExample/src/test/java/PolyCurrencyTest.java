@@ -1,22 +1,24 @@
 import org.junit.Test;
 import static junit.framework.TestCase.*;
+import static org.junit.Assert.assertNotEquals;
 
 public class PolyCurrencyTest {
 
     @Test
     public void testMultiplication() {
-        // Given
         Dollar five = new Dollar(5);
+        assertEquals(new Dollar(10), five.times(2));
+        assertEquals(new Dollar(15),five.times(3));
+    }
 
-        // When
-        five.times(2);
+    @Test
+    public void testEquality() {
+        assertEquals(new Dollar(5), new Dollar(5));
+    }
 
-        // Then
-        assertEquals(10, five.amount);
-
-        five.times(3);
-
-        assertEquals(15,five.amount);
+    @Test
+    public void testNotEqual() {
+        assertNotEquals(new Dollar(5), new Dollar(6));
     }
 
 }

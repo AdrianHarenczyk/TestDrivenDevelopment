@@ -1,12 +1,18 @@
 public class Dollar {
 
-    int amount;
+    private int amount;
 
     public Dollar(int amount) {
         this.amount = amount;
     }
 
-    public void times(int mulitpler) {
-        amount *= mulitpler;
+    Dollar times(int mulitpler) {
+        return new Dollar(amount * mulitpler);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Dollar dollar = (Dollar) obj;
+        return amount == dollar.amount;
     }
 }

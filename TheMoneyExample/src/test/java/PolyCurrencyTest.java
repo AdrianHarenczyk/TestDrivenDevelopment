@@ -5,10 +5,17 @@ import static org.junit.Assert.assertNotEquals;
 public class PolyCurrencyTest {
 
     @Test
-    public void testMultiplication() {
+    public void testDollarMultiplication() {
         Money five = Money.dollar(5);
         assertEquals(Money.dollar(10), five.times(2));
-        assertEquals(Money.dollar(15),five.times(3));
+        assertEquals(Money.dollar(15), five.times(3));
+    }
+
+    @Test
+    public void testFrancMultiplication() {
+        Money five = Money.franc(5);
+        assertEquals(Money.franc(10), five.times(2));
+        assertEquals(Money.franc(15), five.times(3));
     }
 
     @Test
@@ -32,15 +39,10 @@ public class PolyCurrencyTest {
     }
 
     @Test
-    public void testFrancMultiplication() {
-        Franc five = new Franc(5);
-        assertEquals(new Franc(10), five.times(2));
-        assertEquals(new Franc(15), five.times(3));
-    }
-
-    @Test
     public void francDoesNotEqualDollar() {
         assertNotEquals(new Franc(5),new Dollar(5));
     }
+
+
 
 }

@@ -1,4 +1,4 @@
-public abstract class Money {
+public class Money {
     protected String currency;
     protected int amount;
 
@@ -22,9 +22,16 @@ public abstract class Money {
                 && getClass().equals(money.getClass());
     }
 
-    abstract Money times(int multiplier);
+    Money times(int multiplier) {
+        return null;
+    }
 
     String currency(){
         return currency;
+    }
+
+    @Override
+    public String toString() {
+        return amount + " " + currency;
     }
 }

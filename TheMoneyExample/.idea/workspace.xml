@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="befac853-4a11-4a1d-930a-d931cf80484f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Franc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,31 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Franc.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Franc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Franc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
+                <element signature="e#80#81#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dollar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dollar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,13 +52,15 @@
       <file leaf-file-name="Money.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +69,8 @@
       <file leaf-file-name="PolyCurrencyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+            <state relative-caret-position="374">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
@@ -98,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/test/java/PolyCurrency.java" />
         <option value="$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Money.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Franc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dollar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Franc.java" />
       </list>
     </option>
   </component>
@@ -336,16 +341,31 @@
       <option name="project" value="LOCAL" />
       <updated>1523197002765</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Field currency created.">
+      <created>1523197126578</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523197126578</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Generalizing currency field and method.">
+      <created>1523197241493</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523197241493</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Making method times use factory method rather than constructor.">
+      <created>1523197603013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523197603013</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 15h 47m 33s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PolyCurrencyTest - 2018.04.08 at 15h 47m 49s.xml">
-      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 15h 48m 15s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
@@ -370,6 +390,12 @@
     <history-entry file="PolyCurrencyTest - 2018.04.08 at 16h 16m 25s.xml">
       <configuration name="PolyCurrencyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 16h 18m 30s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PolyCurrencyTest - 2018.04.08 at 17h 00m 15s.xml">
+      <configuration name="PolyCurrencyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
@@ -384,11 +410,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" visible="true" weight="0.325723" />
+      <window_info active="true" anchor="bottom" x="1883" y="691" width="74" height="24" id="Run" order="10" visible="true" weight="0.325723" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32998455" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
+      <window_info content_ui="combo" x="975" y="677" width="1277" height="281" id="Project" order="0" visible="true" weight="0.1940532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -446,7 +472,10 @@
     <MESSAGE value="Making class Money abstract and creating factory method dollar." />
     <MESSAGE value="Modifying tests so, that they use factory methods." />
     <MESSAGE value="Creating currency test and make it go green." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating currency test and make it go green." />
+    <MESSAGE value="Field currency created." />
+    <MESSAGE value="Generalizing currency field and method." />
+    <MESSAGE value="Making method times use factory method rather than constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making method times use factory method rather than constructor." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,10 +511,10 @@
         <state relative-caret-position="102">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -506,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PolyCurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        <state relative-caret-position="374">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
@@ -522,39 +551,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Franc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dollar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Franc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
           </folding>
         </state>
       </provider>

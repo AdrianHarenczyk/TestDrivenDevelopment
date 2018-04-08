@@ -2,6 +2,11 @@ public abstract class Money {
     protected String currency;
     protected int amount;
 
+    Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
     static Money dollar(int amount) {
         return new Dollar(amount, "USD");
     }

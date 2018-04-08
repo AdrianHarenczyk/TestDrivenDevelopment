@@ -20,27 +20,27 @@ public class PolyCurrencyTest {
 
     @Test
     public void testEquality() {
-        assertEquals(new Dollar(5), new Dollar(5));
+        assertEquals(Money.dollar(5), Money.dollar(5));
     }
 
     @Test
     public void testNotEqual() {
-        assertNotEquals(new Dollar(5), new Dollar(6));
+        assertNotEquals(Money.dollar(5), Money.dollar(6));
     }
 
     @Test
     public void testEqualityFranc() {
-        assertEquals(new Franc(5), new Franc(5));
+        assertEquals(Money.franc(5), Money.franc(5));
     }
 
     @Test
     public void testNotEqualFranc() {
-        assertNotEquals(new Franc(5), new Franc(6));
+        assertNotEquals(Money.franc(5), Money.franc(6));
     }
 
     @Test
     public void francDoesNotEqualDollar() {
-        assertNotEquals(new Franc(5),new Dollar(5));
+        assertNotEquals(Money.franc(5),Money.dollar(5));
     }
 
     @Test
